@@ -1,7 +1,7 @@
 {
   "id": "guia-do-aventureiro-para-a-costa-da-espada",
   "title": "Guia do Aventureiro para a Costa da Espada",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -240,5 +240,8 @@
         "compatibility": {}
       }
     ]
-  }
+  },
+  "url": "https://github.com/jadilsonjose13-hash/guia-do-aventureiro-para-a-costa-da-espada",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/guia-do-aventureiro-para-a-costa-da-espada/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/guia-do-aventureiro-para-a-costa-da-espada/archive/refs/heads/main.zip"
 }
