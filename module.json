@@ -1,7 +1,7 @@
 {
   "id": "guia-do-aventureiro-para-a-costa-da-espada",
   "title": "Guia do Aventureiro para a Costa da Espada",
-  "version": "1.0.1",
+  "version": "1.0.1.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -93,17 +93,6 @@
       }
     },
     {
-      "name": "equipamento",
-      "label": "Equipamento",
-      "path": "packs/equipamento",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "racas",
       "label": "Raças",
       "path": "packs/racas",
@@ -152,11 +141,33 @@
       "label": "Magias",
       "path": "packs/magias",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
+    },
+    {
+      "name": "miscelanea",
+      "label": "Miscelânea",
+      "path": "packs/miscelanea",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "armaduras",
+      "label": "Armaduras",
+      "path": "packs/armaduras",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -166,7 +177,6 @@
       "color": "#76af76",
       "packs": [
         "tabelas",
-        "equipamento",
         "talentos",
         "regras",
         "magias"
@@ -183,9 +193,19 @@
           "folders": []
         },
         {
+          "name": "Equipamento",
+          "sorting": "a",
+          "color": "#5e8c5e",
+          "packs": [
+            "armaduras",
+            "miscelanea"
+          ],
+          "folders": []
+        },
+        {
           "name": "Raças",
           "sorting": "m",
-          "color": "#5e8c5e",
+          "color": "#527a52",
           "packs": [
             "racas",
             "caracteristicas-de-racas"
@@ -195,7 +215,7 @@
         {
           "name": "Subclasses",
           "sorting": "m",
-          "color": "#527a52",
+          "color": "#466946",
           "packs": [
             "subclasses",
             "caracteristicas-de-subclasses"
