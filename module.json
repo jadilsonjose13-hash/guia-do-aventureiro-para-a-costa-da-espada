@@ -1,0 +1,267 @@
+{
+  "id": "guia-do-aventureiro-para-a-costa-da-espada",
+  "title": "Guia do Aventureiro para a Costa da Espada",
+  "version": "1.0.2",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Explore a Costa da Espada neste suplemento de campanha para o maior RPG de todos os tempos.</p>",
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/guia-do-aventureiro-para-a-costa-da-espada/imagens/thumb-modulo.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true,
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.guia-do-aventureiro-para-a-costa-da-espada.regras.JournalEntry.UzDOiKpYqL8TJlih.JournalEntryPage.BKjsMITtGaNP3MDE",
+        "Compendium.guia-do-aventureiro-para-a-costa-da-espada.regras.JournalEntry.UzDOiKpYqL8TJlih.JournalEntryPage.XcYLBDf9dU9FKKeh",
+        "Compendium.guia-do-aventureiro-para-a-costa-da-espada.regras.JournalEntry.UzDOiKpYqL8TJlih.JournalEntryPage.7s5PQjCri0S5DUMn"
+      ],
+      "sourceBooks": {
+        "SCAG": "Guia do Aventureiro para a Costa da Espada"
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "antecedentes",
+      "label": "Antecedentes",
+      "path": "packs/antecedentes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-subclasses",
+      "label": "Características de Subclasses",
+      "path": "packs/caracteristicas-de-subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-antecedentes",
+      "label": "Características de Antecedentes",
+      "path": "packs/caracteristicas-de-antecedentes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "racas",
+      "label": "Raças",
+      "path": "packs/racas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-racas",
+      "label": "Características de Raças",
+      "path": "packs/caracteristicas-de-racas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "talentos",
+      "label": "Talentos",
+      "path": "packs/talentos",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magias",
+      "label": "Magias",
+      "path": "packs/magias",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "miscelanea",
+      "label": "Miscelânea",
+      "path": "packs/miscelanea",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "armaduras",
+      "label": "Armaduras",
+      "path": "packs/armaduras",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Guia do Aventureiro para a Costa da Espada",
+      "sorting": "a",
+      "color": "#76af76",
+      "packs": [
+        "tabelas",
+        "talentos",
+        "regras",
+        "magias"
+      ],
+      "folders": [
+        {
+          "name": "Antecedentes",
+          "sorting": "a",
+          "color": "#6a9d6a",
+          "packs": [
+            "antecedentes",
+            "caracteristicas-de-antecedentes"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Equipamento",
+          "sorting": "a",
+          "color": "#5e8c5e",
+          "packs": [
+            "armaduras",
+            "miscelanea"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Raças",
+          "sorting": "m",
+          "color": "#527a52",
+          "packs": [
+            "racas",
+            "caracteristicas-de-racas"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Subclasses",
+          "sorting": "m",
+          "color": "#466946",
+          "packs": [
+            "subclasses",
+            "caracteristicas-de-subclasses"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "livro-do-jogador-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-do-mestre-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-dos-monstros-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-item-compendium-by-gwill",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://github.com/jadilsonjose13-hash/guia-do-aventureiro-para-a-costa-da-espada",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/guia-do-aventureiro-para-a-costa-da-espada/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/guia-do-aventureiro-para-a-costa-da-espada/archive/refs/heads/main.zip"
+}
